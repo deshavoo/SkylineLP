@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Clients() {
 const clients = [
-"/clients/DAWOOD.png",
-"/clients/ART LIFE.png",
-"/clients/BRT.png",
-"/clients/ELRAEID.png",
-"/clients/KORRA.png",
-"/clients/AGR.png",
-"/clients/SIDPIC.png",
+"/public/Clients/AGR.jpeg",
+"/public/Clients/ART LIFE.jpeg",
+"/public/Clients/BRT.jpeg",
+"/public/Clients/DAWOOD.jpeg",
+"/public/Clients/ELRAEID.jpeg",
+"/public/Clients/KORRA.jpeg",
+"/public/Clients/SIDPIC.jpeg",
 ];
 
 return ( <section className="section text-center"> <h2 className="heading">شركاء النجاح</h2>
