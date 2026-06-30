@@ -20,7 +20,7 @@ export default function Services() {
   
   return ( <section className="section text-center"> <h2 className="heading">خدماتنا</h2>
   
-  ```
+
     <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
       {services.map((service, i) => (
         <div key={i} className="card group cursor-pointer">
