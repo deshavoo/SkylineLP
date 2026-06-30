@@ -1,25 +1,47 @@
 export default function Services() {
-    return (
-      <section className="py-20 text-center">
-        <h2 className="text-3xl font-bold text-yellow-400">
-          خدماتنا
-        </h2>
+  const services = [
+  {
+  title: "تمديدات كهربائية",
+  desc: "تنفيذ جميع أعمال الكهرباء للمشاريع السكنية والتجارية."
+  },
+  {
+  title: "لوحات توزيع",
+  desc: "تركيب وصيانة لوحات الكهرباء بجودة عالية."
+  },
+  {
+  title: "أنظمة إنذار",
+  desc: "توريد وتركيب أنظمة إنذار الحريق والأمان."
+  },
+  {
+  title: "صيانة وتشغيل",
+  desc: "خدمات صيانة دورية وتشغيل للمشاريع."
+  },
+  ];
   
-        <div className="mt-10 grid md:grid-cols-3 gap-6 px-6">
+  return ( <section className="section text-center"> <h2 className="heading">خدماتنا</h2>
   
-          <div className="p-6 bg-slate-800 rounded-xl">
-            ⚡ تمديدات كهربائية
+  ```
+    <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+      {services.map((service, i) => (
+        <div key={i} className="card group cursor-pointer">
+          
+          <div className="text-4xl mb-4 group-hover:scale-110 transition">
+            ⚡
           </div>
   
-          <div className="p-6 bg-slate-800 rounded-xl">
-            🔌 لوحات توزيع
-          </div>
+          <h3 className="text-xl font-semibold mb-2">
+            {service.title}
+          </h3>
   
-          <div className="p-6 bg-slate-800 rounded-xl">
-            🔥 أنظمة إنذار الحريق
-          </div>
-  
+          <p className="text-muted text-sm">
+            {service.desc}
+          </p>
         </div>
-      </section>
-    );
+      ))}
+    </div>
+  </section>
+  
+  
+  );
   }
+  
