@@ -39,7 +39,7 @@ export default function Hero() {
           </button>
     
           <button className="border border-white px-8 py-3 rounded-xl text-white hover:bg-white hover:text-black transition">
-            شاهد أعمالنا
+            sampoo
           </button>
     
         </div>
