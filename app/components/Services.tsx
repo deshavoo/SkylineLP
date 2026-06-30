@@ -16,7 +16,7 @@ export default function Services() {
           </div>
   
           <div className="p-6 bg-slate-800 rounded-xl">
-            🔥 أنظمة إنذار الحريق
+            
           </div>
   
         </div>
