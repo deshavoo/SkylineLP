@@ -13,7 +13,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-screen flex items-center justify-center text-center overflow-hidden">
+    <section id="home" className="relative h-screen flex items-center justify-center text-center overflow-hidden">
 
       <Image
         src={heroBg}

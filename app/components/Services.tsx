@@ -28,7 +28,7 @@ export default function Services() {
   ];
 
   return (
-    <section className="bg-black text-white py-28 px-6 relative overflow-hidden">
+    <section id="services" className="bg-black text-white py-28 px-6 relative overflow-hidden">
 
       {/* 💎 Background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-150 h-150 bg-blue-500/10 blur-[150px] rounded-full" />
