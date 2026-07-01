@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CursorGlow from "@/app/components/CursorGlow";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -31,3 +32,7 @@ export default function RootLayout({
     </html>
   );
 }
+<body>
+  <CursorGlow />
+ 
+</body>
