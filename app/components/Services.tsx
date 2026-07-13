@@ -56,11 +56,7 @@ export default function Services() {
               className="relative p-px rounded-2xl bg-linear-to-br from-blue-500/40 to-transparent"
             >
               <div
-                className="bg-[#0b0b0b] rounded-2xl p-6 h-full
-                           hover:scale-105 transition duration-300
-                           group cursor-pointer"
-              >
-
+                className="bg-[#0b0b0b] rounded-2xl p-6 h-full hover:scale-105 transition duration-300 group cursor-pointer">
                 {/* Icon */}
                 <div className="w-14 h-14 flex items-center justify-center rounded-xl 
                                 bg-blue-500/10 text-blue-400 mb-5
